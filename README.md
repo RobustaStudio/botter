@@ -14,7 +14,7 @@ How it works
 =============
 > Simply, it takes a xml/html file, then builds a so-called `AST` tree after that it converts each component to a messenger component to be send to the messenger thread, then for each thread/session it creates a session storage using redis to store the collected data, after reaching the end of each form, it will submit the submitted data to a backend from the form `action` attribute just like the basic html forms.
 
-> In another words, it uses the concept of a browser engine, but instead of compiling to the operating system components it compiles to messenger components.
+> In other words, it uses the concept of a browser engine, but instead of compiling to the operating system components it compiles to messenger components.
 
 Features
 =========
