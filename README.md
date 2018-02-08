@@ -4,7 +4,7 @@ Botter
 
 Why
 ======
-> at first it was a for fun project, to just find a simple way to write a chat bot for collecting without repeating any logic each time, so we started using a json file then moved to yaml and finally xml (some html components).
+> at first it was a for fun project, to just find a simple way to write a chat bot for collecting data without repeating any logic each time, so we started using a json file then moved to yaml and finally xml (some html components).
 
 Status
 =======
