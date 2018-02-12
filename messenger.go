@@ -272,11 +272,11 @@ func (this *Messenger) ServeHTTP(res http.ResponseWriter, req *http.Request) {
 			if len(this.tree.Templates) > 0 {
 				done = this.ProcessFromTemplates(m.Text) == nil
 			}
-			if ! done && this.configs["composer"] != "" {
+			if !done && this.configs["composer"] != "" {
 				done = true
 				this.ProcessFromComposer(m.Text)
 			}
-			if ! done {
+			if !done {
 				this.output.Text(this.configs["error"])
 			}
 		} else if sessCurrentInput.Type == "text" {
